@@ -1,7 +1,12 @@
 // Accessing and assigning.
 
-let firstName = "Arya";
-let lastName = "Stark";
+let firstName = "John";
+let lastName = "Snow";
+
+alert(firstName + " " + lastName);
+
+var fullName = (firstName + " " + lastName);
+
 
 // Do the following:
 
