@@ -24,7 +24,9 @@ alert ("I am" + " " + userName + " " + "and my bio is" + " " + bio + ".");
 
 let amount = 200;
 const taxPercent = 10;
-alert("The total amount is" + " " + amount + " " + "The tax amount is" + " " + [(amount * taxPercent) / 100] );
+// alert("The total amount is" + " " + amount + " " + "The tax amount is" + " " + [(amount * taxPercent) / 100] );
+alert(`The total amount is ${amount} 
+The tax amount is ${(amount * taxPercent) / 100}`);
 
 /* Use string template literal:
   - Alert a message saying `The total amount is [amount]
